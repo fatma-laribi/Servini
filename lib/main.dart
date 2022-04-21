@@ -22,7 +22,6 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
-    // return welcome(context);
-    return const ProfilePage();
+    return welcome(context);
   }
 }
